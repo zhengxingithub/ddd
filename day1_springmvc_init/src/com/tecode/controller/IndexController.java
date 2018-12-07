@@ -12,6 +12,7 @@ public class IndexController {
     @RequestMapping(value = {"","/","/index"})
     public String index(){
         System.out.println("进入index");
+        System.out.println("21");
         return "forward:/index.jsp";
     }
 }
